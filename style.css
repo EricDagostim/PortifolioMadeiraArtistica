@@ -1,532 +1,148 @@
-@import url('https://fonts.googleapis.com/css2? family= Raleway:ital,wght@0,700;0,800;1,800 & display=swap');
-@import url('https://fonts.googleapis.com/css2? família= Lato &family= Raleway:ital,wght@0,700;0,800;1,800 & display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins&family=Raleway:wght@700;800;900&display=swap');
 
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    text-decoration: none;
+
+img{
+    max-width: 100%;
+   
 }
 
 body{
-
-   overflow-x: hidden;
-   scroll-behavior:smooth;
-   font-size: 100%;
- 
-   background-image: url('img/tabua_fundo1.jpeg');
-   background-repeat: no-repeat;
-   background-attachment: fixed; 
-   background-size: cover;
-   background-position: left ;
+   
+   
 }
 
-.cabecalho{
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: space-around;
-    padding: 24px;
-    background-color: #ffe1a8b9;
+
+.conteudo-principal-escrito-titulo{
+    font-family: 'Poppins', sans-serif;
+    font-size: 50px;
+    font-weight: 800;
+    color: #fff;
+    margin-bottom: 0px;
+
 }
-
-.cabecalho{
-    height: 72px;
-  
-}
-
-.cabecalho-menu{
-    display: flex;
-    gap: 40px;
-}
-
-.cabecalho-menu-item:hover{
-    color: #f5f5f5;   
-}
-
-.cabecalho-imagem{
-    height: 347px;
-    width: 100px;   
-}
-
-.cabecalho-menu-item{
-    font-family: 'Lato', sans-serif;
-    color: #472D30;
-    font-weight: 500;
-    font-size: 18px;   
-}
-            
-
-.conteudo{margin-bottom: 48px;}
-
-.conteudo-principal{
-    display: flex;
-    flex-direction: row;    
-    flex-wrap: nowrap;
-    align-items: center;
-    align-self: center;   
-                                               
-                                                                              
-    padding-bottom: 40px;                        
-    background-color: #472d309c;    
-    backdrop-filter: blur(100%);      
-    border-bottom: 50px solid #472D30   ;                                         
-}                                                                     
-                                                 
-                                                                            
-                                                                            
-.conteudo-principal-escrito{               
-    padding: 60px;      
-    margin-left: 80px;
-    padding-bottom: 30px;
-    animation: surgir-left 2s ease-out                                                                              
-}                                                           
-                                                                  
-.conteudo-principal-escrito-titulo{              
-    font-family: 'Raleway', sans-serif;                                                
-    font-weight: 700;                                                                      
-    font-size: 48px;                   
-    color: #f5f5f5;
-
-}                          
 
 .conteudo-principal-escrito-subtitulo{
-    font-family: 'Lato', sans-serif;                
-    font-weight: 400;                
-    font-size: 24px;                                                                                                       
-    color:#D2D0B9;                                                                                                                                                                              
+    font-family: 'Poppins';
+    font-size: 24px;
+    font-weight: 200;
+    color: #FFF;
+
+}
+
+.conteudo-principal-escrito-botao{
+    background: #4D593F;
+    width: 250px;
+    height: 100px;
+    border-radius: 30px;
+    text-decoration: none;
+    text-decoration-style: none;
+    border: none;
+
 }
 
 
-.conteudo-principal-escrito-botao{
-   
-    height: 60px;
-    width: 180px;
-    border-radius: 30px;
-    border: none;
-    box-shadow: 4px 5px 4px rgb(0, 0, 0, 0.25);
-    font-family: 'Lato', sans-serif;
-    font-weight: 500;
+
+#conteudo-1{
+    background-color: #F3E3E0;
+    margin-bottom: 100px;
+    border-radius: 10px;
+
+}
+
+
+.conteudo-secundario-titulo1{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 800;
     font-size: 24px;
-    color: #644026;
-    background-color: #f5f5f5;
-    margin: 10px;
-    margin-left: 0px;   
+    text-align: center;
+    
+
+}
+
+.conteudo-secundario-paragrafo1{
+
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    text-align: justify;
+    margin: 5px 30px 10px 30px;
+
+}
+
+
+.conteudo-secundario-titulo2{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 800;
+    font-size: 24px;
+    text-align: center;
+
+}
+
+.conteudo-secundario-paragrafo2{
+
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    text-align: justify;
+    margin: 5px 30px 10px 30px;
+    
+}
+
+
+.conteudo-secundario-titulo3{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 800;
+    font-size: 24px;
+    text-align: center;
+
+}
+
+.conteudo-secundario-paragrafo3{
+
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    text-align: justify;
+    margin: 5px 30px 10px 30px;
    
-    }                                                        
-                                                      
-                                                      
-                                                            
-    .conteudo-principal-escrito-botao:hover{                                                      
-                                                              
-         background-image: url('img/Frame 12.svg');                                                      
-         background-image: visible;                                                      
-         background-color: #D2D0B9;                                                       
-                                      
-    }                                                      
+}
 
-   
-    .conteudo-principal-escrito-imagem{                                                      
-                                                              
-   
-       
-        
-    }
-                                                      
-      
 
-    .conteudo-principal-escrito-imagem-text-anime1{
-        font-family: 'Roboto', sans-serif;
-        font-size: 48px;
-        visibility: hidden;
-        position: absolute;
-        font-weight: 800;
-        color: #f5f5f5;
-        border-radius: 20px;
-        background-color: #d2d0b913;
-        backdrop-filter: blur(100%);
-        border: 1px solid #f5f5f5;
-       
-        
-      
-        padding: 10px;
-        white-space: nowrap;
-        animation: inicio-landing-anim1 2.5s ease-out 1.5s;
-    }
+.conteudo-secundario-titulo4{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 800;
+    font-size: 24px;
+    text-align: center;
 
-    .conteudo-principal-escrito-imagem-text-anime2{
-        font-family: 'Raleway', sans-serif;
-        font-size: 48px;
-        visibility: hidden;
-        position: absolute;
-        font-weight: 800;
-        color: #f5f5f5;
-        border-radius: 20px;
-        background-color: #d2d0b913;
-        backdrop-filter: blur(100%);
-        border: 1px solid #f5f5f5;
-        padding: 10px;
-        white-space: nowrap;
-        animation: inicio-landing-anim1 2.5s ease-out 3.7s;
-    }
+}
 
-    .conteudo-principal-escrito-imagem-text-anime3{
-        font-family: 'Raleway', sans-serif;
-        font-size: 48px;
-        visibility: hidden;
-        position: absolute;
-        font-weight: 800;
-        color: #f5f5f5;
-        border-radius: 20px;
-        background-color: #d2d0b913;
-        border: 1px solid #f5f5f5;
-        backdrop-filter: blur(100%);
-       
-        padding: 10px;
-        white-space: nowrap;
-        animation: inicio-landing-anim1 2.5s ease-out 5.9s;
-    }
+.conteudo-secundario-paragrafo4{
 
-    .conteudo-principal-escrito-imagem2{
-        margin-left: 150px;
-        visibility: hidden;
-        animation: inicio-landing-anim2 6s ease-out 9.2s;       
-    } 
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    text-align: justify;
 
-   
- 
-    .secao1{
-        display: grid;
-        grid-row-gap: 300px;
-        grid-template-columns: 1fr 1fr;
-        grid-template-rows: auto;
-        grid-template-areas: "i t" 
-                                                
-                             "t2 i2"
-                             
-                             "i3 t3"
-                             
-                             "t4 i4"
-                            ;
-        
-    }
+    margin: 5px 30px 10px 30px;
+    
+}
 
-    .box1{
-        
-    }
 
-    .img-conteudo-secundario1{
-        grid-area: i;
-        height: 100%;
 
     
-     }
 
-     .img-conteudo-secundario2{
-        grid-area: i2;
-        height: 100%;
 
-     }
-     .img-conteudo-secundario3{
-        grid-area: i3;
-        height: 100%;
+.alinhar{
+    display: grid;
+    align-content: center;
+    
+}
 
-     }
-     .img-conteudo-secundario4{
-        grid-area: i4;
-        height: 100%;
 
-     }
 
-    .texto1{
-        grid-area: t;
-        background-color: #723D46;
-    }
-
-  
-    .conteudo-secundario-titulo{        
-        border-top: 0.4 solid #f5f5f5;
-        padding-top: 20px;
-        font-family: 'Raleway', sans-serif;
-        font-weight: 700;                                    
-        font-size: 35px;
-        color: #f5f5f5;
-       
-        
+@media (max-width: 992px){
+    
+    h3.title1{
         margin-top: 20px;
-        text-align: center; 
     }
-
-    .conteudo-secundario-paragrafo{
-        font-family: 'Lato', sans-serif;
-        font-weight: 100;
-        font-size: 20px;
-        color: #D2D0B9;
-        padding: 40px;
-        text-align:justify   
-    }
-
-    .texto2{
-       grid-area: t2;
-       background-color: #723D46;
-        
-
-    }
-
-    .conteudo-secundario-titulo2{        
-        border-top: 0.4 solid #f5f5f5;
-        padding-top: 20px;
-        font-family: 'Raleway', sans-serif;
-        font-weight: 700;                                    
-        font-size: 35px;
-        color: #f5f5f5;
-       
-        
-        text-align: center; 
-    }
-
-    .conteudo-secundario-paragrafo2{
-        font-family: 'Lato', sans-serif;
-        font-weight: 100;
-        font-size: 20px;
-        color: #D2D0B9;
-        padding: 40px;
-        text-align:justify;
-        align-self:auto; 
-    }
-
-
-    .texto3{
-        grid-area: t3;
-        background-color: #723D46;
-         
- 
-     }
- 
-     .conteudo-secundario-titulo3{        
-         border-top: 0.4 solid #f5f5f5;
-         padding-top: 20px;
-         font-family: 'Raleway', sans-serif;
-         font-weight: 700;                                    
-         font-size: 35px;
-         color: #f5f5f5;
-        
-         
-         text-align: center; 
-     }
- 
-     .conteudo-secundario-paragrafo3{
-         font-family: 'Lato', sans-serif;
-         font-weight: 100;
-         font-size: 20px;
-         color: #D2D0B9;
-         padding: 40px;
-         text-align:justify;
-         align-self:auto; 
-     }
-
-     .texto4{
-        grid-area: t4;
-        background-color: #723D46;
-         
- 
-     }
- 
-     .conteudo-secundario-titulo4{        
-         border-top: 0.4 solid #f5f5f5;
-         padding-top: 20px;
-         font-family: 'Raleway', sans-serif;
-         font-weight: 700;                                    
-         font-size: 35px;
-         color: #f5f5f5;
-        
-         
-         text-align: center; 
-     }
- 
-     .conteudo-secundario-paragrafo4{
-         font-family: 'Lato', sans-serif;
-         font-weight: 100;
-         font-size: 20px;
-         color: #D2D0B9;
-         padding: 40px;
-         text-align:justify;
-         align-self:auto; 
-     }
-
- 
-
-   
-
-
-
-
-   
-    
-
-     
-    
-/* -------------------------------------------------------------------------------- */
-    img{
-        max-width: 100%; 
-        
-    }
-    
-    .imagens-produtos{
-        display: flex;
-        flex:1;
-        max-width: 250px;
-        flex-direction: column;   
-    }
-
-    .conteudo-secundario-imagem4{
-        max-width: 100%;
-        max-width: 100%;
-        margin-top: 40px;
-    }
-
-    .conteudo-secundario-imagem2{
-        max-width: 100%;
-        max-width: 100%;
-        margin-top: 40px;
-       
-
-    }
-
-    .conteudo-secundario-imagem1{
-        max-width: 100%;
-        max-width: 100%;
-        margin-top: 40px;
-    } 
-
-    .rodape{
-        padding: 32px;
-        border-top: 5 solid #f5f5f5fd;
-    }
-
-    .rodape-imagem{
-        height: 48px;
-        display: block;
-        margin: 0 auto;
-    }
-
-    /*DAQUI PRA BAIXO ESTÃO OS COMANDOS DAS ANIMAÇÕES*/
-
-    @keyframes opacidade {
-            
-        from{           
-                  opacity: 50%;
-                                       /*ANIMAÇÃO OPACIDADE 50% para 100%*/
-             }
-     to{  
-         opacity: 100%;
-        }
-    }
-
-    @keyframes surgir-left {
-        from {
-            transform: translateX(-5vw); /*ANIMAÇÃO SURGIR DA ESQUERDA PARA A DIREITA*/
-            opacity: 0%;
-        }
-    
-        to  {
-            transform: translateX(0vw); 
-            opacity: 100%;   
-        }
-    }
-    
-
-    @keyframes surgir-top {
-        from {
-            transform: translatey(-2vw); /*ANIMAÇÃO SURGIR DA ESQUERDA PARA A DIREITA*/
-            opacity: 0%;
-
-        }
-    
-        to  {
-            
-            transform: translatey(0vw); 
-            opacity: 100%;
-           
-            
-        }
-    }
-
-/*Animcação hard aqui pra baixo lindo --------------------->*/
-    
-    @keyframes inicio-landing-anim2 {
-        0%{
-            visibility: visible;
-            margin-left: 150px;         
-            opacity: 0%;
-            border-bottom: 2px #f5f5f5;
-        }                           /*Animação surgir da esquerda para a direita e depois sumir */
-
-        50%{
-            visibility: visible;
-            opacity: 100%;
-            
-        }
-
-        100%{  
-            visibility: visible;
-            opacity: 0%;
-            
-        }
-        
-    }
-
-    @keyframes inicio-landing-anim1 {
-        0%{
-            visibility: visible;
-            transform: translateX(-4vh);
-            margin-left: 840px;
-            
-            opacity: 0%;
-        }  
-        
-        20%{
-            visibility: visible;
-            transform: translateX(0vh);
-            
-          
-            opacity: 100%;
-        }                           /*Animação surgir da esquerda para a direita e depois sumir */
-
-        80%{
-            visibility: visible ;
-            margin-left: 840px;
-            transform: translateX(0vh);
-          
-            
-            opacity: 80%;
-        }
-
-        100%{
-            visibility: visible;
-            margin-left: 840px;
-            transform: translateX(4vh);
-            
-            
-            opacity: 0%;
-        }
-        
-    }
-
-
-@keyframes surgir-imagem{
-    0%{
-        opacity: 0%;    /*Animação que faz a imagem fixa do início aparecer*/
-    }
-    90%{
-        opacity: 0%;
-    }
-
-    100%{
-        opacity: 100%;
-    }
-} 
-
-
-
-    
+}
